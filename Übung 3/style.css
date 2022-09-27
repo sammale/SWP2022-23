@@ -1,0 +1,40 @@
+.flexbox{
+    display: flex;
+    border: 2px solid black;
+}
+
+.green-box{
+    background-color: lawngreen;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.little-green-box{
+    background-color: lawngreen;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    height: 250px;
+    width: 200px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.little-box{
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

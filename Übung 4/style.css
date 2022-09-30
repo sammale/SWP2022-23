@@ -1,0 +1,60 @@
+.flexbox{
+    display: flex;
+    border: 2px solid black;
+    justify-content: flex-end;
+    margin: 40px;
+}
+
+.green{
+    height: 150px;
+    width: 150px;
+    background-color: lawngreen;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.red{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.light-blue{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-color: aqua;
+    top: 0px;
+    left: 0px;
+    border: 2px solid black;
+}
+
+.blue{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border: 2px solid black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.purple{
+    height: 120px;
+    width: 120px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+    z-index: -1;
+}

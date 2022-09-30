@@ -1,0 +1,69 @@
+.nothing{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+
+.orange{
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    background-color: orange;
+    bottom: 0px;
+}
+
+.blue{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    top: 0px;
+    right: 0px;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+
+.green{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    background-color: lawngreen;
+    top: 0px;
+    left: 0px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+
+.black{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    top: 0px;
+    right: 0px;
+}
+
+.gray{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    bottom: 0px;
+    left: 0px;
+    background-color: lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.little_orange{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+    border: 2px solid black;
+}

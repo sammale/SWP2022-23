@@ -1,0 +1,58 @@
+body{
+    background-color: #D6DCDE;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-feature-settings: "liga", "kern";
+    color: white;
+}
+
+.wrapper{
+    position: relative;
+    left: 130px;
+    width: 57%;
+}
+
+.header{
+    background-color: #9E0B0F;
+    height: 27px;
+    
+    font-size: 0.85rem;
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    align-items: center;
+}
+
+.header-list > ul > li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.Logo{
+    background-color: #BB131A;
+    height: 77px;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    color: #ffffff;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-weight: 400;
+    font-size: 1.625rem;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Logo > img {
+    width: 101px;
+    height: 39px;
+}
+
+.navbar-site{
+    background-color: #D32824;
+    border-bottom: 3px solid #E94E38;
+    height: 9px;
+}

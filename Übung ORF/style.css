@@ -8,7 +8,7 @@ body{
 .wrapper{
     position: relative;
     left: 130px;
-    width: 57%;
+    width: 875px;
 }
 
 .header{
@@ -55,4 +55,69 @@ span{
     background-color: #D32824;
     border-bottom: 3px solid #E94E38;
     height: 9px;
+}
+
+.header-list2 > ul > li{
+    display: inline-block;
+    padding-right: 18px;
+    padding-left: 18px;
+    line-height: 1.125rem;
+}
+
+.news-list{
+    background-color: #790000;
+    font-size: 1.110rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-weight: 400;
+}
+
+.news-list  img{
+    margin-right: 18px;
+}
+
+.picture {
+    margin-top: 12px;
+    padding: 0;
+    max-height: max-content;
+}
+
+.picture img{   
+    width: 100%;
+}
+.white-box{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: -5px;
+}
+
+.text-box{
+    background-color: white;
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+    color: black;
+    position: relative;
+    top: -5.5em;
+
+    font-size: 2.25rem;
+    line-height: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.coronavirus{
+    color: #A6A6A6;
+    font-size: 1.1875rem;
+    padding: 1.25em 0.5265rem 0;
+}
+
+.text{
+    color: black;
+    font-size: 1.125rem;
+    line-height: 1.7em;
 }

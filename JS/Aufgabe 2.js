@@ -8,7 +8,7 @@ console.log("The result of 17.4 divided by 3.9 is ".concat(result, '.'));
 // Lege eine Variable firstname und eine Varialbe lastname an. Weise den Variablen Deinen Namen zu. Gib folgendes aus:
 //"Ich heiße VORNAME NACHNAME"
 
-let name = "David";
-let surname = "Rüscher";
+let name = "Julian";
+let surname = "Sammer";
 
 console.log("Ich heiße ".concat(name, ' ', surname, '.'));

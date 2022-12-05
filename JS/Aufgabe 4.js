@@ -20,7 +20,7 @@ for(let i = 1234; i > 1206; i--) {
 
 // Gib Deinen Namen genau 8 mal aus
 for(let i = 0; i < 8; i++) {
-    console.log("David");
+    console.log("Julian");
 }
 
 // Zähle von 0 auf 10, dann gib Deinen Namen aus, dann zähle von 10 auf 0
@@ -29,7 +29,7 @@ function counting() {
         console.log(i);
     }
 
-    console.log("David")
+    console.log("Julian")
 
     for(let i = 10; i >= 0; i--) {
         console.log(i);
